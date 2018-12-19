@@ -1,0 +1,127 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\android\CallLog1\app\src\main\AndroidManifest.xml:2:1-49:12
+INJECTED from D:\android\CallLog1\app\src\main\AndroidManifest.xml:2:1-49:12
+INJECTED from D:\android\CallLog1\app\src\main\AndroidManifest.xml:2:1-49:12
+INJECTED from D:\android\CallLog1\app\src\main\AndroidManifest.xml:2:1-49:12
+INJECTED from D:\android\CallLog1\app\src\main\AndroidManifest.xml:2:1-49:12
+INJECTED from D:\android\CallLog1\app\src\main\AndroidManifest.xml:2:1-49:12
+INJECTED from D:\android\CallLog1\app\src\main\AndroidManifest.xml:2:1-49:12
+	package
+		ADDED from D:\android\CallLog1\app\src\main\AndroidManifest.xml:3:5-41
+		INJECTED from D:\android\CallLog1\app\src\main\AndroidManifest.xml
+		INJECTED from D:\android\CallLog1\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\android\CallLog1\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from D:\android\CallLog1\app\src\main\AndroidManifest.xml
+		INJECTED from D:\android\CallLog1\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\android\CallLog1\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from D:\android\CallLog1\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from D:\android\CallLog1\app\src\main\AndroidManifest.xml
+		INJECTED from D:\android\CallLog1\app\src\main\AndroidManifest.xml
+application
+ADDED from D:\android\CallLog1\app\src\main\AndroidManifest.xml:7:5-43:19
+	android:label
+		ADDED from D:\android\CallLog1\app\src\main\AndroidManifest.xml:10:9-41
+	android:icon
+		ADDED from D:\android\CallLog1\app\src\main\AndroidManifest.xml:9:9-45
+	android:allowBackup
+		ADDED from D:\android\CallLog1\app\src\main\AndroidManifest.xml:8:9-35
+	android:theme
+		ADDED from D:\android\CallLog1\app\src\main\AndroidManifest.xml:11:9-40
+	android:name
+		ADDED from D:\android\CallLog1\app\src\main\AndroidManifest.xml:11:41-93
+activity#com.androidexample.calllog.CallList
+ADDED from D:\android\CallLog1\app\src\main\AndroidManifest.xml:12:9-26:20
+	android:label
+		ADDED from D:\android\CallLog1\app\src\main\AndroidManifest.xml:14:13-45
+	android:name
+		ADDED from D:\android\CallLog1\app\src\main\AndroidManifest.xml:13:13-63
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\android\CallLog1\app\src\main\AndroidManifest.xml:15:13-19:29
+action#android.intent.action.MAIN
+ADDED from D:\android\CallLog1\app\src\main\AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from D:\android\CallLog1\app\src\main\AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\android\CallLog1\app\src\main\AndroidManifest.xml:18:17-77
+	android:name
+		ADDED from D:\android\CallLog1\app\src\main\AndroidManifest.xml:18:27-74
+intent-filter#action:name:android.intent.action.DELETE+action:name:android.intent.action.VIEW+category:name:android.intent.category.DEFAULT+data:scheme:com.androidexample.broadcastreceiver
+ADDED from D:\android\CallLog1\app\src\main\AndroidManifest.xml:20:13-25:20
+action#android.intent.action.VIEW
+ADDED from D:\android\CallLog1\app\src\main\AndroidManifest.xml:21:5-57
+	android:name
+		ADDED from D:\android\CallLog1\app\src\main\AndroidManifest.xml:21:13-54
+action#android.intent.action.DELETE
+ADDED from D:\android\CallLog1\app\src\main\AndroidManifest.xml:22:5-59
+	android:name
+		ADDED from D:\android\CallLog1\app\src\main\AndroidManifest.xml:22:13-56
+category#android.intent.category.DEFAULT
+ADDED from D:\android\CallLog1\app\src\main\AndroidManifest.xml:23:5-64
+	android:name
+		ADDED from D:\android\CallLog1\app\src\main\AndroidManifest.xml:23:15-61
+data
+ADDED from D:\android\CallLog1\app\src\main\AndroidManifest.xml:24:5-67
+	android:scheme
+		ADDED from D:\android\CallLog1\app\src\main\AndroidManifest.xml:24:11-64
+activity#com.androidexample.calllog.CallDetailServer
+ADDED from D:\android\CallLog1\app\src\main\AndroidManifest.xml:27:9-155
+	android:screenOrientation
+		ADDED from D:\android\CallLog1\app\src\main\AndroidManifest.xml:27:79-115
+	android:label
+		ADDED from D:\android\CallLog1\app\src\main\AndroidManifest.xml:27:116-142
+	android:name
+		ADDED from D:\android\CallLog1\app\src\main\AndroidManifest.xml:27:19-77
+receiver#com.androidexample.calllog.IncomingCall
+ADDED from D:\android\CallLog1\app\src\main\AndroidManifest.xml:28:9-32:20
+	android:name
+		ADDED from D:\android\CallLog1\app\src\main\AndroidManifest.xml:28:19-73
+intent-filter#action:name:android.intent.action.PHONE_STATE
+ADDED from D:\android\CallLog1\app\src\main\AndroidManifest.xml:29:17-31:33
+action#android.intent.action.PHONE_STATE
+ADDED from D:\android\CallLog1\app\src\main\AndroidManifest.xml:30:17-76
+	android:name
+		ADDED from D:\android\CallLog1\app\src\main\AndroidManifest.xml:30:25-73
+receiver#com.androidexample.calllog.OutgoingCall
+ADDED from D:\android\CallLog1\app\src\main\AndroidManifest.xml:33:9-37:20
+	android:name
+		ADDED from D:\android\CallLog1\app\src\main\AndroidManifest.xml:33:19-73
+intent-filter#action:name:android.intent.action.NEW_OUTGOING_CALL
+ADDED from D:\android\CallLog1\app\src\main\AndroidManifest.xml:34:17-36:33
+action#android.intent.action.NEW_OUTGOING_CALL
+ADDED from D:\android\CallLog1\app\src\main\AndroidManifest.xml:35:17-82
+	android:name
+		ADDED from D:\android\CallLog1\app\src\main\AndroidManifest.xml:35:25-79
+receiver#com.androidexample.calllog.CallDurationReceiver
+ADDED from D:\android\CallLog1\app\src\main\AndroidManifest.xml:38:9-42:19
+	android:name
+		ADDED from D:\android\CallLog1\app\src\main\AndroidManifest.xml:38:19-81
+uses-permission#android.permission.INTERNET
+ADDED from D:\android\CallLog1\app\src\main\AndroidManifest.xml:44:5-83
+	android:name
+		ADDED from D:\android\CallLog1\app\src\main\AndroidManifest.xml:44:22-64
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\android\CallLog1\app\src\main\AndroidManifest.xml:45:5-91
+	android:name
+		ADDED from D:\android\CallLog1\app\src\main\AndroidManifest.xml:45:22-72
+uses-permission#android.permission.PROCESS_OUTGOING_CALLS
+ADDED from D:\android\CallLog1\app\src\main\AndroidManifest.xml:46:5-97
+	android:name
+		ADDED from D:\android\CallLog1\app\src\main\AndroidManifest.xml:46:22-78
+uses-sdk
+INJECTED from D:\android\CallLog1\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\android\CallLog1\app\src\main\AndroidManifest.xml
+INJECTED from D:\android\CallLog1\app\src\main\AndroidManifest.xml
+INJECTED from D:\android\CallLog1\app\src\main\AndroidManifest.xml
+INJECTED from D:\android\CallLog1\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\android\CallLog1\app\src\main\AndroidManifest.xml
+		ADDED from D:\android\CallLog1\app\src\main\AndroidManifest.xml
+		INJECTED from D:\android\CallLog1\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\android\CallLog1\app\src\main\AndroidManifest.xml
+		ADDED from D:\android\CallLog1\app\src\main\AndroidManifest.xml
+		INJECTED from D:\android\CallLog1\app\src\main\AndroidManifest.xml
